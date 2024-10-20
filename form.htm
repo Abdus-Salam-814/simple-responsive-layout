@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        body > nav > ul{
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+        body > nav > ul a{
+            text-decoration: none;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        .login-form-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+        main{
+            /* margin: 0 auto; */
+            display: flex;
+            justify-content: center;
+            place-items: center;
+            /* min-width: 20px; */
+            min-height: 80vh;
+        }
+        fieldset{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </nav>
+
+   <main>
+    <section class="login-form-container">
+        <form action="">
+            <fieldset>
+                <legend>This is Login Form</legend>
+                <input type="email" required placeholder="Your Email">
+                <input type="password" name="" id="" placeholder="Your Password" required>
+                <input type="submit" value="Login">
+            </fieldset>
+        </form>
+    </section>
+   </main>
+
+</body>
+</html>

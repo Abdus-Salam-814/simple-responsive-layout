@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsiv</title>
+    <style>
+        .cart-container{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+     
+        @media screen and (max-width: 567px) {
+            .cart-container{
+            grid-template-columns: repeat(1, 1fr);
+               
+            }
+        }
+
+        @media screen  and (min-width: 567px) and (max-width: 768px) {
+          .cart-container { grid-template-columns: repeat(2, 1fr);}
+            
+        }
+        @media screen  and (min-width: 768px) and (max-width: 992px) {
+          .cart-container { grid-template-columns: repeat(3, 1fr);}
+            
+        }
+
+
+
+        .cart-img img{
+            width: 100%;
+        }
+        .cart-content{
+            text-align: center;
+        }
+        button{
+            background-color: bisque;
+            border: none;
+            padding: 12px 20px;
+            font-weight: 800;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+        button:hover{
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <section class="cart-container">
+        <div class="cart">
+            <div class="cart-img">
+                <img src="./images/food.webp" alt="">
+            </div>
+            <div class="cart-content">
+                <h1>Food Item</h1>
+                <small>price: $12</small>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius officiis nam aspernatur rerum vitae est ipsam quia.</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="cart-img">
+                <img src="./images/food.webp" alt="">
+            </div>
+            <div class="cart-content">
+                <h1>Food Item</h1>
+                <small>price: $12</small>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius officiis nam aspernatur rerum vitae est ipsam quia.</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="cart-img">
+                <img src="./images/food.webp" alt="">
+            </div>
+            <div class="cart-content">
+                <h1>Food Item</h1>
+                <small>price: $12</small>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius officiis nam aspernatur rerum vitae est ipsam quia.</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="cart-img">
+                <img src="./images/food.webp" alt="">
+            </div>
+            <div class="cart-content">
+                <h1>Food Item</h1>
+                <small>price: $12</small>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius officiis nam aspernatur rerum vitae est ipsam quia.</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="cart-img">
+                <img src="./images/food.webp" alt="">
+            </div>
+            <div class="cart-content">
+                <h1>Food Item</h1>
+                <small>price: $12</small>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius officiis nam aspernatur rerum vitae est ipsam quia.</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="cart-img">
+                <img src="./images/food.webp" alt="">
+            </div>
+            <div class="cart-content">
+                <h1>Food Item</h1>
+                <small>price: $12</small>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius officiis nam aspernatur rerum vitae est ipsam quia.</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="cart-img">
+                <img src="./images/food.webp" alt="">
+            </div>
+            <div class="cart-content">
+                <h1>Food Item</h1>
+                <small>price: $12</small>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius officiis nam aspernatur rerum vitae est ipsam quia.</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="cart-img">
+                <img src="./images/food.webp" alt="">
+            </div>
+            <div class="cart-content">
+                <h1>Food Item</h1>
+                <small>price: $12</small>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius officiis nam aspernatur rerum vitae est ipsam quia.</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="cart-img">
+                <img src="./images/food.webp" alt="">
+            </div>
+            <div class="cart-content">
+                <h1>Food Item</h1>
+                <small>price: $12</small>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius officiis nam aspernatur rerum vitae est ipsam quia.</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="cart-img">
+                <img src="./images/food.webp" alt="">
+            </div>
+            <div class="cart-content">
+                <h1>Food Item</h1>
+                <small>price: $12</small>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius officiis nam aspernatur rerum vitae est ipsam quia.</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="cart-img">
+                <img src="./images/food.webp" alt="">
+            </div>
+            <div class="cart-content">
+                <h1>Food Item</h1>
+                <small>price: $12</small>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius officiis nam aspernatur rerum vitae est ipsam quia.</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="cart-img">
+                <img src="./images/food.webp" alt="">
+            </div>
+            <div class="cart-content">
+                <h1>Food Item</h1>
+                <small>price: $12</small>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius officiis nam aspernatur rerum vitae est ipsam quia.</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="cart-img">
+                <img src="./images/food.webp" alt="">
+            </div>
+            <div class="cart-content">
+                <h1>Food Item</h1>
+                <small>price: $12</small>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius officiis nam aspernatur rerum vitae est ipsam quia.</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="cart-img">
+                <img src="./images/food.webp" alt="">
+            </div>
+            <div class="cart-content">
+                <h1>Food Item</h1>
+                <small>price: $12</small>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius officiis nam aspernatur rerum vitae est ipsam quia.</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="cart-img">
+                <img src="./images/food.webp" alt="">
+            </div>
+            <div class="cart-content">
+                <h1>Food Item</h1>
+                <small>price: $12</small>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius officiis nam aspernatur rerum vitae est ipsam quia.</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="cart-img">
+                <img src="./images/food.webp" alt="">
+            </div>
+            <div class="cart-content">
+                <h1>Food Item</h1>
+                <small>price: $12</small>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius officiis nam aspernatur rerum vitae est ipsam quia.</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="cart-img">
+                <img src="./images/food.webp" alt="">
+            </div>
+            <div class="cart-content">
+                <h1>Food Item</h1>
+                <small>price: $12</small>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius officiis nam aspernatur rerum vitae est ipsam quia.</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="cart-img">
+                <img src="./images/food.webp" alt="">
+            </div>
+            <div class="cart-content">
+                <h1>Food Item</h1>
+                <small>price: $12</small>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius officiis nam aspernatur rerum vitae est ipsam quia.</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="cart-img">
+                <img src="./images/food.webp" alt="">
+            </div>
+            <div class="cart-content">
+                <h1>Food Item</h1>
+                <small>price: $12</small>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius officiis nam aspernatur rerum vitae est ipsam quia.</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="cart-img">
+                <img src="./images/food.webp" alt="">
+            </div>
+            <div class="cart-content">
+                <h1>Food Item</h1>
+                <small>price: $12</small>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius officiis nam aspernatur rerum vitae est ipsam quia.</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
